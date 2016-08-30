@@ -20,17 +20,3 @@ function showPage() {
 }
 
 
-function displayFooter() {
-
-	var mq = window.matchMedia( "(min-width: 700px)" );
-	var footer = $('#footer');
-	var footerSM = $('#footer-small');
-
-	if (mq.matches) {
-  		// window width is at least 700px
-  		$("#footer").show();
-	} else {
-  	// window width is less than 500px
-  		$("#footerSM").show();
-	}
-}

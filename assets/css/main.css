@@ -109,11 +109,9 @@ h4 {
 }
 
 
-
-
 /* ui design section */
 #design { 
-  padding: 0 50px;    
+  padding: 0 50px;   
 }
 
  /* journal section */
@@ -138,7 +136,7 @@ h4 {
 
 /* info section */
 #info {
-  padding: 40px 100px;
+  padding: 10px 100px;
 }
 
 
@@ -156,9 +154,22 @@ h4 {
   margin-top: 0px;
 }
 
-p.col-sm-3 {
-  margin: 0px;
+#footer-small {
+  margin-top: 0px;
 }
+
+
+/* media queries */
+
+@media only screen and (min-width: 700px){
+  #footer {display:block;}
+  #footer-small {display:none;}
+}
+
+@media only screen and (max-width: 700px){
+  #footer {display:none;}
+}
+
 
 /* loader effect - Loading */
 

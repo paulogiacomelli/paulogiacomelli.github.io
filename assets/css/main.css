@@ -8,11 +8,11 @@
 
 html {
     overflow-x: hidden;
+    font-size: 16px;
 }
 
 p {
     color: #666666;
-    font-size: 15px;
     font-weight: 300;
     line-height: 1.8;
     margin: 10px 0 23px;
@@ -34,7 +34,7 @@ a:hover {
 
 p.title {
     color: #333333;
-    font-size: 32px;
+    font-size: 200%;
     line-height: 140%;
     margin: 5px 0 40px;
 }
@@ -161,15 +161,27 @@ h4 {
 
 /* media queries */
 
-@media only screen and (min-width: 700px){
-  #footer {display:block;}
-  #footer-small {display:none;}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) {
+  #footer-small {display:none;}  
 }
 
-@media only screen and (max-width: 700px){
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
   #footer {display:none;}
+  #footer-small {display:block;}
+  #about {padding: 20px;}
+  #info {padding: 20px;}
 }
 
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+}
 
 /* loader effect - Loading */
 

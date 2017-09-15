@@ -1,13 +1,3 @@
-var myVar;
-
-function myFunction() {
-    myVar = setTimeout(showPage, 2200);
-}
-
-function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("mypage").style.display = "block";
-
 
     $(function() {
         $("#typed").typed({

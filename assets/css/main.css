@@ -3,6 +3,9 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 @import 'https://fonts.googleapis.com/css?family=Quicksand';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+
+
 html {
     overflow-x: hidden;
     font-size: 16px;
@@ -14,11 +17,15 @@ p {
     line-height: 1.8;
     margin: 10px 0 23px;
     font-family: 'Open-Sans', sans-serif;
-    ;
 }
 
 a {
-    color: #666666;
+    color: #4A708B;
+    font-weight: 300;
+    line-height: 1.8;
+    margin: 10px 0 23px;
+    font-size: 24px;
+    font-family: 'Open-Sans', sans-serif;
     text-decoration: none;
     transition: all 0.5s ease 0s;
 }
@@ -26,354 +33,27 @@ a {
 a:hover {
     color: #666666;
     text-decoration: none;
-    background: #FFFFE0;
-}
-
-p.title {
-    color: #333333;
-    font-size: 200%;
-    line-height: 140%;
-    margin: 5px 0 40px;
-}
-
-h4 {
-    color: #333333;
-    font-size: 17px;
-    font-weight: bold;
-    margin: 10px 0 0;
 }
 
 
-/* navigation style */
-
-.navbar {
-    background-color: transparent;
-    border-style: none;
-    margin-bottom: 0px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: red;
-}
-
-#menu {
-    padding: 0 100px;
-}
-
-
-/* main header */
-
-#header {
-    padding: 80px 100px;
-}
-
-.headline {
-    font-family: 'Raleway', sans-serif;
+h1 {
     color: #333333;
     font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    font-family: 'Playfair Display', serif;
+
 }
 
-.sub-headline {
-    color: #666666;
-    margin: 10px;
-    font-size: 12px;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 4px;
+sup {
+    font-size: 10px;
 }
 
-
-/* about section */
-
-#about {
-    padding: 80px 100px;
-    color: #848484;
+hr {
+    max-width: 300px;
 }
 
-#about a {
-    border-bottom: 1px solid #e8e8e8;
-    color: #666666;
-    text-decoration: none;
-    transition: all 0.5s ease 0s;
-    opacity: .6;
+li {
+    margin: 0 10px;
 }
 
-#about a:hover {
-    border-style: none;
-    text-decoration: none;
-    background: #FFFFE0;
-    opacity: .9;
-}
-
-
-/* ui design section */
-
-#design {
-    padding: 0 50px;
-}
-
-
-/* journal section */
-
-#journal {
-    padding: 0 50px;
-}
-
-.main {
-    margin: 0 auto -60px;
-}
-
-.main .img-responsive {
-    margin-bottom: 0px;
-}
-
-.grid-custom .col-sm-6,
-.grid-custom .col-xs-6,
-.grid-custom .col-xs-12,
-.grid-custom .col-sm-3 {
-    padding: 5px;
-}
-
-
-/* info section */
-
-#info {
-    padding: 10px 100px;
-}
-
-
-/* brand section */
-
-.brand-style {
-    -webkit-filter: grayscale(100%);
-    /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
-    width: 12%;
-    margin: 40px 40px;
-}
-
-
-/* footer section */
-
-#footer {
-    padding: 0px 100px;
-    margin-top: 0px;
-}
-
-#footer-small {
-    margin-top: 0px;
-}
-
-
-/* media queries */
-
-
-/* Medium Devices, Desktops */
-
-@media only screen and (min-width: 768px) {
-    #footer-small {
-        display: none;
-    }
-    #responsive-header {
-        display: none;
-    }
-}
-
-
-/* Small Devices, Tablets */
-
-@media only screen and (max-width: 768px) {
-    #footer {
-        display: none;
-    }
-    #footer-small {
-        display: block;
-    }
-    #about {
-        padding: 20px;
-    }
-    #info {
-        padding: 20px;
-    }
-    #menu {
-        padding: 20px;
-    }
-    #header {
-        padding: 20px;
-    }
-
-    #responsive-header {
-        display: block;
-    }
-
-    #typed, .typed-cursor {
-        display:none;
-    }
-}
-
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (max-width: 480px) {}
-
-
-/* Custom, iPhone Retina */
-
-@media only screen and (max-width: 320px) {}
-
-
-/* loader effect - Loading */
-
-.loading {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.loading-bar {
-    display: inline-block;
-    width: 4px;
-    height: 18px;
-    border-radius: 4px;
-    animation: loading 1s ease-in-out infinite;
-}
-
-.loading-bar:nth-child(1) {
-    background-color: #3498db;
-    animation-delay: 0;
-}
-
-.loading-bar:nth-child(2) {
-    background-color: #c0392b;
-    animation-delay: 0.09s;
-}
-
-.loading-bar:nth-child(3) {
-    background-color: #f1c40f;
-    animation-delay: .18s;
-}
-
-.loading-bar:nth-child(4) {
-    background-color: #27ae60;
-    animation-delay: .27s;
-}
-
-@keyframes loading {
-    0% {
-        transform: scale(1);
-    }
-    20% {
-        transform: scale(1, 2.2);
-    }
-    40% {
-        transform: scale(1);
-    }
-}
-
-@-webkit-keyframes loading {
-    0% {
-        transform: scale(1);
-    }
-    20% {
-        transform: scale(1, 2.2);
-    }
-    40% {
-        transform: scale(1);
-    }
-}
-
-@-moz-keyframes loading {
-    0% {
-        transform: scale(1);
-    }
-    20% {
-        transform: scale(1, 2.2);
-    }
-    40% {
-        transform: scale(1);
-    }
-}
-
-
-
-/* Add animation to "page content" */
-
-.animate-bottom {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 1s;
-    animation-name: animatebottom;
-    animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-    from {
-        bottom: -100px;
-        opacity: 0
-    }
-    to {
-        bottom: 0px;
-        opacity: 1
-    }
-}
-
-@keyframes animatebottom {
-    from {
-        bottom: -100px;
-        opacity: 0
-    }
-    to {
-        bottom: 0;
-        opacity: 1
-    }
-}
-
-#mypage {
-    display: none;
-}
-
-
-/* typing effect - Type.JS */
-
-.typed-cursor {
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}

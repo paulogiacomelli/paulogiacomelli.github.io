@@ -2,51 +2,52 @@
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display';
 
 
-html {
-    overflow-x: hidden;
-    font-size: 16px;
+body {
+    background-color: #fff;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
 }
 
-p {
-    color: #666666;
-    font-weight: 300;
-    line-height: 1.8;
-    margin: 10px 0 23px;
-    font-family: 'Open-Sans', sans-serif;
-}
-
-a {
-    color: #4A708B;
-    font-weight: 300;
-    line-height: 1.8;
-    margin: 10px 0 23px;
-    font-size: 24px;
-    font-family: 'Open-Sans', sans-serif;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #666666;
-    text-decoration: none;
-}
-
-
-h1 {
-    color: #333333;
-    font-size: 50px;
-    margin: 10px 0 0;
-    font-family: 'Playfair Display', serif;
+.navbar {
+    background-color: #fff;
+    padding: 30px;
 
 }
 
-sup {
-    font-size: 10px;
+#work {
+    padding: 20px 50px;
 }
+
+#about {
+    padding: 0px 50px;
+}
+
+#resume {
+    padding: 0px 50px;
+}
+
+.row {
+    padding-bottom: 30px;  
+}
+
+.card {
+    width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+
+}
+
+.card-body {
+    padding: 20px;
+}
+
 
 hr {
-    max-width: 300px;
-}
-
-li {
-    margin: 0 10px;
+    border: 0;
+    height: 1px;
+    max-width: 70%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }

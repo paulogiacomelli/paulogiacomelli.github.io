@@ -1,40 +1,177 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Paulo Giacomelli">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home | Paulo Giacomelli</title>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <!-- Bootstrap -->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    </head>
-    <body>
-        <div class="container" style="padding-top: 50px;">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <h1 class="text-center animated fadeIn">Paulo Giacomelli</h1>
-                    <br>
-                    <p>Hi, I am a software developer from Brazil <img src="assets/images/brazilIcon.png" height="16px" width="16px">, finishing my computer science degree at the University of Montana, Missoula, MT, USA.</p>
-                    <p> I am  currently programming at Spectral Fusion Designs where I develop web applications using LAMP Stack, Laravel, JavaScript, HTML and CSS. I also take some time to help manage the University of Montana Employee Database, previous office built web applications and any other web problems we might encounter along the way.</p>
-                    <p>During this past summer I had the opportunity to work as a software developer intern at Fast Enteprises. I worked with a team of 20+ developers implementing the tax system for the State of Massachusetts. As part of the product support team I had to learn and work in a complex proprietary fork of VB.NET/SQL software.
-                    </p>
-                    <hr class="text-center">
-                    <p>If you would like to talk, you can find me at:</p>
-                </div>
-            </div>
-                <div class="col-sm-6 col-sm-offset-3">
-                    <ul class="text-center list-inline">
-                        <li class="list-inline-item"><a target="_blank" href="mailto:paulogiacomelli@hotmail.com">email<sup> @</sup></a></li>
-                        <li class="list-inline-item"><a target="_blank" href="./assets/images/PauloGiacomelliResume.pdf">resume<sup> pdf</sup></a></li>
-                        <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/paulo-giacomelli-5521a78a">linkedin<sup> www</sup></a></li>
-                    </ul>
-                </div>
+<html lang="en">
+
+<head>
+    <title>Paulo Giacomelli</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Framework Import -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="container navbar navbar-light bg-faded navbar-expand-sm">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Personal Logo" style="width:50px;"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto float-right text-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="images/PauloGiacomelliResume.pdf">resume</a>
+                </li>
+            </ul>
         </div>
-    </body>
+    </nav>
+
+
+    <div id="header" class="container">
+        <div class="row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Hey there, my name is Paulo. I am a software developer living in Missoula, MT.</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <img class="img-fluid" src="images/header4.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container">
+        <div class="row">
+            <div class="col-sm-8 mx-auto">
+                <h2>About</h2>
+
+                <p>I am currently programming at Spectral Fusion Designs where I develop and maintain web applications using LAMP Stack, Laravel, JavaScript, HTML and CSS. I am also working towards my bachelors degree in Computer Science with an expected graduation in May, 2018.</p>
+
+                <h4>This past summer...</h4>
+                <p>I had the opportunity to work as a software developer intern at Fast Enteprises. I worked with a team of 20+ developers implementing the tax system for the State of Massachusetts. As part of the product support team I had to learn and work in a complex proprietary fork of VB.NET/SQL software.</p>
+                <h4>More about me?</h4>
+                <p>If you would like to chat or just want to get some information about me, you can find me on: <br><a target="_blank" href="https://www.linkedin.com/in/paulo-giacomelli-5521a78a">LinkedIn</a> // <a target="_blank" href="mailto:paulogiacomelli@hotmail.com">email</a> // <a target="_blank" href="images/PauloGiacomelliResume.pdf">resume</a>.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <div id="projects" class="container">
+        <div class="row">
+            <div class="col-sm-8 mx-auto">
+                <h1>projects, fun stuff and everything else</h1>
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 100px;">
+            <div class="col-4">
+                <a href="project1.html">
+                    <div class="card">
+                        <img class="card-img-top" src="images/pfahler.png" alt="Pfahler Sports Logo">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Pfahler Sports Specific</h3>
+                        <p class="card-text">WordPress // HTMl // CSS // JS </p>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="col-4">
+                <a href="soon.html">
+                    <div class="card">
+                        <img class="card-img-top" src="images/ggc.png" alt="Girls Get Coding! Logo">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Girls Get Coding! - Working</h3>
+                        <p class="card-text">Laravel // LAMP // JS // SaSS </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="soon.html">
+
+                    <div class="card">
+                        <img class="card-img-top" src="images/ogc.png" alt="Outdoor Gear Checklist Logo">
+
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Outdoor Gear Checklist - Working</h3>
+                        <p class="card-text">Ionic // AngularJS // Mobile </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="soon.html">
+                    <div class="card">
+                        <img class="card-img-top" src="images/umt.png" alt="University Of Montana - Language Day">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Language Day Form</h3>
+                        <p class="card-text">Laravel // HTML // CSS // JS</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <hr style="margin-top: 80px;">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-8 mx-auto text-center">
+                <h1>If you are interested, lets talk!</h1>
+                <button class="button custom">Email me</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr>
+
+
+    <footer class="container">
+        <p class="text-center">Paulo Giacomelli</p>
+    </footer>
+
+
+
+</body>
+
 </html>
+
+<script>
+    $(document).ready(function() {
+        // Add smooth scrolling
+        $(".navbar a, a[href='#home']").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function() {
+                    window.location.hash = hash;
+                });
+            }
+        });
+    })
+</script>

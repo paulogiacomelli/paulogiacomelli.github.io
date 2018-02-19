@@ -69,21 +69,30 @@ footer {
     -ms-transform: translate(-50%, -50%);
 }
 
+
 .card {
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-color: #212121;
     border: none;
+    padding: 50px;
 }
 
 .card-img-top {
+    width: 100%;
     height: auto;
-    width: 250px;
     margin: auto;
 }
+
 #project {
     margin-bottom: 100px;
 }
+.card-body {
+
+    background-color: #fff;
+}
+
+
 /*
 .card-hover {
   position: absolute;

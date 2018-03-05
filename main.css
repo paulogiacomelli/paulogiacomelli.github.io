@@ -19,7 +19,7 @@ html {
     margin-bottom: 100px;
 }
 
-p {
+p, li {
     color: #545454;
     /*17252A*/
     line-height: 32px;
@@ -27,6 +27,7 @@ p {
     font-size: 14px;
     /*margin: 10px 0 23px;*/
 }
+
 
 a {
     /*color: #154854;*/

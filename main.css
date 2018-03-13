@@ -5,10 +5,61 @@ html {
     font-family: 'Merriweather', serif;
 
 }
+p, li {
+    color: #545454;
+    line-height: 32px;
+    display: block;
+    font-size: 14px;
+}
 
-.content {
-    max-width: 500px;
-    margin: auto;
+a {
+    color: #154854;
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    opacity: .8;
+    color: #154854;
+}
+
+li {
+    margin: 5px;
+}
+
+footer {
+    min-height: 50px;
+    padding-top: 10px;
+}
+
+hr {
+    border-color: #F0EEEE;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #17252A;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #17252A;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #154854;
 }
 
 #about {
@@ -19,36 +70,9 @@ html {
     margin-bottom: 100px;
 }
 
-p, li {
-    color: #545454;
-    /*17252A*/
-    line-height: 32px;
-    display: block;
-    font-size: 14px;
-    /*margin: 10px 0 23px;*/
-}
-
-
-a {
-    /*color: #154854;*/
-    color: #66866B;
-    text-decoration: none;
-    position: relative;
-}
-
-a:hover {
-    opacity: .8;
-    color: #66866B;
-}
-
-li {
-    margin: 5px;
-}
-
-
-footer {
-    min-height: 50px;
-    padding-top: 10px;
+.content {
+    max-width: 500px;
+    margin: auto;
 }
 
 .container {
@@ -91,7 +115,7 @@ footer {
 }
 
 .card-title {
-    color: #66866B;
+    color: #154854;
 }
 
 .card-text {
@@ -101,39 +125,8 @@ footer {
     line-height: 24px;
 }
 
-hr {
-    border-color: #F0EEEE;
-}
-
-h1 {
-    font-size: 30px;
-    line-height: 40px;
-    color: #17252A;
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 24px;
-    color: #17252A;
-    line-height: 40px;
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-size: 18px;
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-h4 {
-    font-size: 14px;
-    line-height: 20px;
-    color: #66866B;
-
-}
-
 .button {
-    background-color: #66866B;
+    background-color: #154854;
     /* Green */
     border: none;
     color: white;
@@ -151,11 +144,11 @@ h4 {
 
 .custom {
     background-color: white;
-    color: #66866B;
-    border: 2px solid #66866B;
+    color: #154854;
+    border: 2px solid #154854;
 }
 
 .custom:hover {
-    background-color: #66866B;
+    background-color: #154854;
     color: white;
 }

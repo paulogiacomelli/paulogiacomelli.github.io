@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo|Lora|Merriweather|Montserrat|Open+Sans|Playfair+Display|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Arvo|Lora|Merriweather|Montserrat|Open+Sans|Playfair+Display|Ubuntu|Raleway');
 
 body,
 html {
-    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', serif;
 }
 p, li {
     color: #545454;
@@ -69,7 +69,7 @@ h4 {
     margin-bottom: 100px;
 }
 
-.phases > .col-sm-12 {
+.phases > .col-sm-12, .col-sm-10 {
 	padding-bottom: 10px;
 }
 

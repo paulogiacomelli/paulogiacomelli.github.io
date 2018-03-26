@@ -20,6 +20,7 @@ a {
 a:hover {
     opacity: .8;
     color: #154854;
+	cursor: pointer;
 }
 
 li {

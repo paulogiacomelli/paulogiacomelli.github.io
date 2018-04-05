@@ -32,6 +32,15 @@
 				<li class="nav-item">
 					<a class="nav-link" target="_blank" href="images/PauloGiacomelliResume.pdf">resume</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link linkedin" target="_blank" href="https://www.linkedin.com/in/paulo-giacomelli-5521a78a"><i class="fab fa-linkedin fa-2x"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link github" target="_blank" href="https://github.com/paulogiacomelli"><i class="fab fa-github-square fa-2x"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link email" href="mailto:paulogiacomelli@hotmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+				</li>
 			</ul>
 		</div>
 	</nav>
@@ -72,11 +81,8 @@
 					<p>I am currently programming at Spectral Fusion Designs where I develop and maintain web applications using LAMP Stack, Laravel, JavaScript, HTML, and CSS. This year I have been promoted to Lead Programmer, which means I am now responsible for keeping the web servers updated, helping to train new employees, and leading any new projects that involve programming.</p>
 
 					<p>Also, this past summer, I had the opportunity to work as a software developer intern at Fast Enterprises. I worked with a team of 20+ developers implementing the tax system for the State of Massachusetts. As part of the product support team I had to learn and work in a complex environment that uses VB.NET/SQL software.</p>
-					<h3>find me at:</h3>
-
-					<h2><a target="_blank" href="https://www.linkedin.com/in/paulo-giacomelli-5521a78a">LinkedIn</a> // <a href="https://github.com/paulogiacomelli" target="_blank">Github</a> // <a target="_blank" href="mailto:paulogiacomelli@hotmail.com">email</a> // <a target="_blank" href="images/PauloGiacomelliResume.pdf">resume</a>.</h2>
 				</div>
-					<a id='button'>More about me?</a>
+				<a id='button'>More about me?</a>
 
 			</div>
 		</div>
@@ -173,21 +179,15 @@
 		<div class="row">
 			<div class="col-sm-8 mx-auto text-center">
 				<h1>If you are interested, lets talk!</h1>
-				<button class="button custom">Email me</button>
+				<button class="button custom"><a class="link" href="mailto:paulogiacomelli@hotmail.com">Email me</a></button>
 			</div>
 		</div>
 	</div>
-
 	<hr>
-
 	<footer class="container">
 		<p class="text-center">Paulo Giacomelli</p>
 	</footer>
-
-
-
 </body>
-
 </html>
 
 <script>
@@ -210,15 +210,15 @@
 		$("#button").click(function() {
 			$("#more").toggle('fast');
 			var btn = $('#button');
-			
-			if(btn.text() == "More about me?") {
+
+			if (btn.text() == "More about me?") {
 				btn.text('Less about me!');
 			} else {
 				btn.text('More about me?')
 			}
 		});
-		
-		
-		
+
+
+
 	});
 </script>

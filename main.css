@@ -163,16 +163,16 @@ h4 {
     border: 2px solid #154854;
 }
 
-.link {
-	color: #154854;
-    text-decoration: none;
-}
+/*
 .link:hover {
 	color: #fff;
 	text-decoration: none;
 }
+*/
 
 .custom:hover {
     background-color: #154854;
     color: white;
+	text-decoration: none;
+
 }

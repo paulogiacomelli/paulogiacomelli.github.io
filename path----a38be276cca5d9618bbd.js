@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{99:function(e,o){e.exports={data:{site:{siteMetadata:{title:"Paulo Giacomelli",description:"Software developer",url:"",keywords:"software developer, portfolio, personal website, front-end developer, full-stack developer"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----a38be276cca5d9618bbd.js.map
